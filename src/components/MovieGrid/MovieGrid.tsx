@@ -1,7 +1,7 @@
 import React from "react";
 import type { Movie } from "../../types/movie";
 import { getImageUrl } from "../../services/movieService";
-import styles from "./MuvieGrid.module.css";
+import styles from "./MovieGrid.module.css";
 
 interface MovieGridProps {
   movies: Movie[];
