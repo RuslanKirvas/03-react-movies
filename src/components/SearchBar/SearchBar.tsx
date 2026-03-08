@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import toast from "react-hot-toast";
-import styles from "./SearcBar.module.css";
+import styles from "./SearchBar.module.css";
 
 interface SearchBarProps {
   onSubmit: (query: string) => void;
